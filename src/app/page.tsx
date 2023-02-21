@@ -1,19 +1,10 @@
 import Image from "next/image";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className="Background">
-      <div className="Container">
-        <Image
-          src="/Icon No Backgound.svg"
-          alt="Starborn Studio Logo"
-          className="Logo"
-          width={150}
-          height={150}
-          priority
-        />
-        <h1 className="Headder">Under Contruction</h1>
-      </div>
+    <div className="w-full h-full min-h-screen flex flex-col bg-Galaxy-Blue p-16 text-Star-Yellow">
+      <Header />
     </div>
   );
 }
