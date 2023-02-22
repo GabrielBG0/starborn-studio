@@ -8,7 +8,7 @@ export default function Header() {
     element!.scrollIntoView({ behavior: "smooth" });
   }
   return (
-    <div className="w-full flex h-20 justify-between items-center">
+    <div className="w-full flex h-20 justify-between items-center relative z-10">
       <div className="flex justify-start items-center">
         <Image
           src={icon}
