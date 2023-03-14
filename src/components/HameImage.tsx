@@ -1,32 +1,38 @@
 import Image from "next/image";
 import homeImage from "../../public/HomeImage.png";
-import imageCropTop from "../../public/ImageCropTop.svg";
-import imageCropBot from "../../public/ImageCropBottom.svg";
+import imageCrop from "../../public/ImageCrop.svg";
 
 export default function HomeImage() {
   return (
-    <div className="-ml-16 -mr-16 mt-2">
+    <div
+      className="-ml-16 -mr-16 mt-2"
+      style={{
+        position: "relative",
+      }}
+    >
       <Image
-        src={imageCropTop}
+        src={imageCrop}
         alt="image crop"
         style={{
-          marginBottom: "-80px",
           width: "100%",
           height: "auto",
+          top: 0,
+          left: 0,
           position: "relative",
           zIndex: "1",
         }}
       />
-      <Image src={homeImage} alt="home Image" priority />
       <Image
-        src={imageCropBot}
-        alt="image crop"
+        src={homeImage}
+        alt="home Image"
+        priority
         style={{
-          marginTop: "-91px",
           width: "100%",
           height: "auto",
-          position: "relative",
-          zIndex: "1",
+          position: "absolute",
+          top: 0,
+          left: 0,
+          zIndex: "0",
         }}
       />
     </div>
