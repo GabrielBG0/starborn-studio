@@ -9,7 +9,7 @@ export default function Header() {
     element!.scrollIntoView({ behavior: "smooth" });
   }
   return (
-    <div className="w-full flex h-20 justify-between items-center relative z-10 mb-16">
+    <div className="w-full flex h-20 lg:justify-between justify-center items-center relative z-10 mb-16">
       <div className="flex justify-start items-center">
         <Image
           src={icon}
@@ -23,7 +23,7 @@ export default function Header() {
         />
         <h1 className="text-5xl ml-7 font-medium">Starborn Studio</h1>
       </div>
-      <div className="flex justify-evenly items-center w-1/3 font-extralight text-2xl">
+      <div className="lg:flex justify-evenly items-center w-1/3 font-extralight text-2xl gap-3 hidden ">
         <div>
           <button onClick={() => scrollToId("ProjectStar")}>
             Project Star

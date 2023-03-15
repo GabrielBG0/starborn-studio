@@ -6,10 +6,10 @@ export default function Section(
   return (
     <section
       id={props.id}
-      className="m-8 flex flex-col justify-start items-center"
+      className="lg:m-8 my-8 flex flex-col justify-start items-center"
     >
       <h1 className="text-8xl m-8 font-medium">{props.title}</h1>
-      <div className=" my-8 mx-16">{props.children}</div>
+      <div className=" my-8 lg:mx-16">{props.children}</div>
     </section>
   );
 }
