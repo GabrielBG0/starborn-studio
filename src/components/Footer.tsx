@@ -4,7 +4,7 @@ import icon from "../../public/IconNoBackgound.svg";
 
 export default function Footer() {
   return (
-    <div className="w-full flex h-20 justify-between items-center relative z-10 mt-16">
+    <div className="w-full flex h-20 lg:justify-between justify-center items-center relative z-10 mt-16">
       <div className="flex justify-start items-center w-full">
         <h1 className="text-2xl ml-7 font-medium">© 2023 Starborn Studio</h1>
       </div>
@@ -20,7 +20,7 @@ export default function Footer() {
           priority
         />
       </div>
-      <div className="flex justify-evenly items-center text-base font-extralight w-full">
+      <div className="hidden lg:flex justify-evenly items-center text-base font-extralight w-full">
         <p>
           Made With ❤️ By{" "}
           <a
