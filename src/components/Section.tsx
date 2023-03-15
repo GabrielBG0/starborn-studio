@@ -9,7 +9,7 @@ export default function Section(
       className="m-8 flex flex-col justify-start items-center"
     >
       <h1 className="text-8xl m-8 font-medium">{props.title}</h1>
-      <div className=" m-8 ">{props.children}</div>
+      <div className=" my-8 mx-16">{props.children}</div>
     </section>
   );
 }

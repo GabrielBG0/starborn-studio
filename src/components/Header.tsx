@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import icon from "../../public/IconNoBackgound.svg";
@@ -22,18 +23,17 @@ export default function Header() {
         />
         <h1 className="text-5xl ml-7 font-medium">Starborn Studio</h1>
       </div>
-      <div className="flex justify-evenly items-center w-1/3 text-base font-extralight ">
+      <div className="flex justify-evenly items-center w-1/3 font-extralight text-2xl">
         <div>
-          <button>Home</button>
+          <button onClick={() => scrollToId("ProjectStar")}>
+            Project Star
+          </button>
         </div>
         <div>
-          <button>Project Star</button>
+          <button onClick={() => scrollToId("About")}>About Us</button>
         </div>
         <div>
-          <button>About Us</button>
-        </div>
-        <div>
-          <button>Press Kit</button>
+          <button onClick={() => scrollToId("PressKit")}>Press Kit</button>
         </div>
       </div>
     </div>

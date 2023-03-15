@@ -24,4 +24,24 @@ h1 {
 p {
   font-size: 20px;
   margin: 1.5rem;
+  max-width: 50vw;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #040719;
+  padding: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E4C837;
+  border-radius: 5px;
+  transition: 300ms;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E4C837;
 }
