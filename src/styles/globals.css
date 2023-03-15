@@ -24,7 +24,12 @@ h1 {
 p {
   font-size: 20px;
   margin: 1.5rem;
-  max-width: 50vw;
+}
+
+@media (min-width: 1024px) {
+  p {
+    max-width: 50vw;
+  }
 }
 
 ::-webkit-scrollbar {

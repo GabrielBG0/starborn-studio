@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex justify-start items-center w-full">
         <h1 className="text-2xl ml-7 font-medium">© 2023 Starborn Studio</h1>
       </div>
-      <div className="w-full flex justify-center items-center">
+      <div className="w-full hidden lg:flex justify-center items-center">
         <Image
           src={icon}
           alt="Starborn Logo"
