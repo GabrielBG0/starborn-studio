@@ -50,3 +50,14 @@ p {
 ::-webkit-scrollbar-thumb:hover {
   background: #E4C837;
 }
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #040719;;
+  background: #E4C837;
+}
+
+::selection {
+  color: #040719;;
+  background: #E4C837;
+}
