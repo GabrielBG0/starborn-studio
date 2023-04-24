@@ -13,7 +13,7 @@ export default function Home() {
       <HomeImage />
       <Section id="ProjectStar" title="Project Star">
         <p>
-          Project Star is a unnamed 2d, pixel art, isometric Metroidvania game
+          Project Star is a unnamed 2d, pixel art, Top-Down Metroidvania game
           currently in development with no release date set. The game is in its
           most early phase of development and everything is subject to change.
         </p>
