@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Header from "@/components/Header";
-import bgimage from "../../public/Starborn-Background.svg";
+import bgimage from "@/../../public/Starborn-Background.svg";
 import Section from "@/components/Section";
 import Footer from "@/components/Footer";
 
