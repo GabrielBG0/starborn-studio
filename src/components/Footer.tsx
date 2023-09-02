@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import icon from "../../public/Starborn-Icon.svg";
+import icon from "../../public/StarbornIcon.svg";
 
 export default function Footer() {
   return (
