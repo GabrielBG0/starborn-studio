@@ -39,7 +39,7 @@ p {
 }
 
 ::-webkit-scrollbar-track {
-  background: #040719;
+  background: #04061300;
   padding: 2px;
 }
 
@@ -55,11 +55,38 @@ p {
 
 ::-moz-selection {
   /* Code for Firefox */
-  color: #040719;
+  color: #040613;
   background: #e4c837;
 }
 
 ::selection {
-  color: #040719;
+  color: #040613;
   background: #e4c837;
+}
+
+.bg-art {
+  max-height: 100vh;
+}
+
+.page {
+  min-height: 200vh;
+  background: radial-gradient(87.88% 63.34% at 50% 23.65%, rgba(255, 255, 255, 0.27) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  backdrop-filter: blur(45px);
+}
+
+.header {
+  border-radius: 0rem 0rem 2.5rem 2.5rem;
+  border: 1px solid #84857e83;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 243, 183, 0.53) -274%,
+    rgba(217, 217, 217, 0) 100%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
