@@ -9,7 +9,7 @@ export default function Header() {
     element!.scrollIntoView({ behavior: "smooth" });
   }
   return (
-    <div className="mb-16 mt-0 flex h-24 lg:justify-between items-center header sticky">
+    <div className="mb-16 mt-0 flex h-24 lg:justify-between items-center header sticky p-2">
       <div className="flex justify-start items-center p-5">
         <Image
           src={icon}

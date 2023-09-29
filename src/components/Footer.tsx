@@ -4,7 +4,7 @@ import icon from "../../public/StarbornIcon.svg";
 
 export default function Footer() {
   return (
-    <div className="w-full flex h-20 lg:justify-between justify-center items-center relative z-10 mt-16 mb-3">
+    <div className="w-full flex h-24 lg:justify-between justify-center items-center relative mt-16 p-4">
       <div className="flex justify-start items-center w-full">
         <h1 className="text-2xl ml-7 font-medium">© 2023 Starborn Studio</h1>
       </div>
