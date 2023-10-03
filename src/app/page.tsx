@@ -7,15 +7,17 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="text-Star-Yellow">
-      <div className="min-h-full min-w-full flex justify-center absolute mt-40 bg-art">
-        <Image src={bgimage} alt="bg" />
+      <div className="min-h-full min-w-full flex justify-center items-center absolute bg-art">
+        <div className="h-full">
+          <Image src={bgimage} alt="bg" />
+        </div>
       </div>
       <div className="page">
         <Header />
         <div className="h-full flex flex-col justify-center text-white">
-          <div className="h-96 flex flex-col justify-center align-middle mb-96">
-            <h1 className="text-7xl font-bold mt-10">
-              Somethign Well <br /> Thought
+          <div className="h-90vh flex flex-col justify-center align-middle">
+            <h1 className="text-8xl font-bold mt-10">
+              Creating Games That We <br /> Would Love to Play
             </h1>
           </div>
           <div>
