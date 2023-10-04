@@ -41,7 +41,7 @@ export default function Home() {
                 on it!
               </p>
             </Section>
-            <Section id="PressKit" title="Press Kit">
+            <Section id="PressKit" title="Press Kit (Project Star)">
               <p>
                 <b> Developer:</b> Starborn Studio
               </p>
