@@ -15,8 +15,8 @@ export default function Home() {
       <div className="page">
         <Header />
         <div className="h-full flex flex-col justify-center text-white">
-          <div className="h-90vh flex flex-col justify-center align-middle">
-            <h1 className="text-8xl font-bold mt-10">
+          <div className="h-90vh h-96 flex flex-col justify-center align-middle">
+            <h1 className="lg:text-8xl md:text-7xl text-6xl font-bold mt-10">
               Creating Games That We <br /> Would Love to Play
             </h1>
           </div>

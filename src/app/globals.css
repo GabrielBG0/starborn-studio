@@ -69,7 +69,6 @@ p {
 }
 
 .page {
-  min-height: 200vh;
   background: radial-gradient(87.88% 63.34% at 50% 23.65%, rgba(255, 255, 255, 0.27) 0%, rgba(255, 255, 255, 0) 100%);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
   backdrop-filter: blur(45px);
@@ -86,12 +85,11 @@ p {
   );
   box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
-  position: sticky;
-  top: 0;
-  z-index: 999;
 }
 
-.h-90vh {
-  height: 90vh;
-  padding-bottom: 15vh;
+@media (min-width: 1024px) {
+  .h-90vh {
+    height: 90vh;
+    padding-bottom: 15vh;
+  }
 }
