@@ -8,8 +8,8 @@ export default function Section(
       id={props.id}
       className="lg:m-8 my-8 flex flex-col justify-start items-center"
     >
-      <h1 className="text-8xl m-8 font-medium">{props.title}</h1>
-      <div className=" my-8 lg:mx-16">{props.children}</div>
+      <h1 className="text-6xl m-8 font-medium">{props.title}</h1>
+      <div className=" my-8 lg:mx-16 font-light">{props.children}</div>
     </section>
   );
 }
