@@ -16,7 +16,7 @@ export default function Home() {
         <Header />
         <div className="h-full flex flex-col justify-center text-white">
           <div className="h-90vh h-96 flex flex-col justify-center align-middle">
-            <h1 className="lg:text-8xl md:text-7xl text-6xl font-bold mt-10">
+            <h1 className="leading-tight lg:leading-tight md:leading-tight lg:text-8xl md:text-7xl text-6xl font-bold mt-10">
               Creating Games That We <br /> Would Love to Play
             </h1>
           </div>
