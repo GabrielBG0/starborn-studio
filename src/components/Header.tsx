@@ -25,7 +25,7 @@ export default function Header() {
           Starborn Studio
         </h1>
       </div>
-      <div className="lg:flex justify-evenly items-center w-1/3 font-medium text-2xl gap-3 hidden">
+      <div className="lg:flex justify-evenly items-center w-1/3 font-medium text-2xl gap-3 hidden header-itens">
         <div>
           <button onClick={() => scrollToId("ProjectStar")}>
             Project Star

@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Rubik:wght@400;500&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   font:
-    400 14px "Poppins",
+    400 14px "Rubik",
     sans-serif;
 }
 
@@ -21,6 +21,8 @@ body {
 
 h1 {
   text-align: center;
+  font-family: "Lora", serif;
+  font-weight: 500;
 }
 
 p {
@@ -85,6 +87,11 @@ p {
   );
   box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
+}
+
+.header-itens {
+  font-family: "Lora", serif;
+  font-weight: 400;
 }
 
 @media (min-width: 1024px) {
